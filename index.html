@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A browser-based client for testing Restful API using C++. It displays the names and addresses of ten students in a table format. The Restful API is used to convert the the data to uppercase. The updated content is displayed."
+  />
+
+  <link rel="icon" type="image/png" href="./assets/images/logo.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Registered Students</title>
+</head>
+
+<body class="body-class">
+  <div class="jumbotron">
+    <img src="./assets/images/logo.png" alt="Logo" class="logo">
+    <h2 class="main-heading">REGISTERED STUDENTS</h2>
+  </div>
+
+  <div class="main-container">
+    <table>
+      <thead>
+        <tr>
+          <th class="table-head">Serial No.</th>
+          <th class="table-head"> Name of Student </th>
+          <th class="table-head"> Address </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr class="table-row1">
+          <td>01</td>
+          <td>Jishnu Pramod</td>
+          <td>USA</td>
+        </tr>
+
+        <tr class="table-row2">
+          <td>02</td>
+          <td>Student2</td>
+          <td>Address2</td>
+        </tr>
+
+        <tr class="table-row1">
+          <td>03</td>
+          <td>Third student</td>
+          <td>His address</td>
+        </tr>
+
+        <tr class="table-row2">
+          <td>04</td>
+          <td>4th student</td>
+          <td>address of 4th</td>
+        </tr>
+
+        <tr class="table-row1">
+          <td>05</td>
+          <td>last student</td>
+          <td>last address</td>
+        </tr>
+     </tbody>
+    </table>
+</div>
+
+    <br />
+
+    <div class="api-buttons">
+      <button class="api-button" id="uppercase-button">Show Upper</button>
+      <button class="api-button" id="lowercase-button">Show Lower</button>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
